@@ -45,14 +45,7 @@ void loop() {
     }
   }
 
- /* if (clickCount == 1 && (millis() - firstClickTime) > 1000) {
-    setColor(0, 0, 255);  // Blue if held longer than 1 second
-  }
 
-  if (clickCount == 2 && (millis() - secondClickTime) > 1000) {
-    setColor(0, 0, 255);  // Blue if held longer than 1 second
-  }
-*/
   lastButtonState = reading;
 }
 
